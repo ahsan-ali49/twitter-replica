@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: gold;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: white;
+  width: 98vw;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.navLeft,
+.navRight {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: 0;
+  color: gray;
+  font-weight: bolder;
+  background-color: white;
+  height: 98%;
+  width: 24%;
+}
+
+button:hover {
+  /* height: 98%; */
+  border-bottom: 2% solid dodgerblue;
+}
+
+input {
+  border: none;
+  background-color: rgb(223, 223, 223);
+  border-radius: 15px;
+}
+
+.twitterBird {
+  /* background-color: dodgerblue; */
+  color: dodgerblue;
+}
+
+li {
+  list-style-type: none;
+}
